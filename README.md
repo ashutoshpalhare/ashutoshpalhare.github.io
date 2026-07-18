@@ -35,7 +35,7 @@ To run this website locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ashutosh786palhare/ashutosh786palhare.github.io.git
+   git clone https://github.com/ashutoshpalhare/ashutosh786palhare.github.io.git
 
 2. Navigate to the project directory.
 3. Open `index.html` in your web browser.
@@ -47,8 +47,8 @@ If you'd like to contribute or suggest improvements, feel free to open an issue 
 ## Contact Information
 For any further information, collaborations, or inquiries, feel free to reach out to me:
 - Email: ap4all@aol.com
-- LinkedIn: [Ashutosh Palhare](https://in.linkedin.com/in/ashutosh786palhare)
-- Website: https://ashutosh786palhare.github.io
+- LinkedIn: [Ashutosh Palhare](https://in.linkedin.com/in/ashutoshpalhare)
+- Website: https://ashutoshpalhare.github.io
 
 ## Credit
 This Website is Developed by [CodeWithSadee](https://github.com/codewithsadee) Big thanks to @CodeWithSadee
