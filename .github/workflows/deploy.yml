@@ -29,27 +29,41 @@ jobs:
 
       - run: npm run build
 
-      - name: Find output and SPA fallback
+      - name: Prepare static output for GitHub Pages
         id: out
         run: |
-          if [ -f dist/client/index.html ]; then
+          echo "=== dist structure ==="
+          find dist -type f | head -50 || true
+
+          # Prefer dist/client
+          if [ -d dist/client ]; then
             OUT="dist/client"
-          elif [ -f dist/index.html ]; then
+          elif [ -d dist ]; then
             OUT="dist"
-          elif [ -f .output/public/index.html ]; then
-            OUT=".output/public"
           else
-            echo "No index.html found"
-            find . -name "index.html" | head -30
-            ls -la
-            ls -la dist 2>/dev/null || true
-            ls -la .output 2>/dev/null || true
+            echo "No dist folder"
             exit 1
           fi
-          echo "path=$OUT" >> $GITHUB_OUTPUT
-          cp "$OUT/index.html" "$OUT/404.html"
+
+          echo "Using: $OUT"
+          ls -la "$OUT"
+
+          # SPA mode creates _shell.html (not index.html)
+          if [ -f "$OUT/_shell.html" ]; then
+            cp "$OUT/_shell.html" "$OUT/index.html"
+            cp "$OUT/_shell.html" "$OUT/404.html"
+            echo "Created index.html + 404.html from _shell.html"
+          elif [ -f "$OUT/index.html" ]; then
+            cp "$OUT/index.html" "$OUT/404.html"
+            echo "Using existing index.html"
+          else
+            echo "No _shell.html or index.html found in $OUT"
+            find "$OUT" -name "*.html" || true
+            exit 1
+          fi
+
           touch "$OUT/.nojekyll"
-          echo "Using output: $OUT"
+          echo "path=$OUT" >> $GITHUB_OUTPUT
           ls -la "$OUT"
 
       - uses: actions/configure-pages@v5
