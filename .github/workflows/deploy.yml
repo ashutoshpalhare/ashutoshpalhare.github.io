@@ -41,6 +41,9 @@ jobs:
           else
             echo "No index.html found"
             find . -name "index.html" | head -30
+            ls -la
+            ls -la dist 2>/dev/null || true
+            ls -la .output 2>/dev/null || true
             exit 1
           fi
           echo "path=$OUT" >> $GITHUB_OUTPUT
