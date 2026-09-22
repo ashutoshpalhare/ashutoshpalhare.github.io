@@ -1,60 +1,252 @@
-# Ashutosh Palhare - Portfolio Website
+# Ashutosh Palhare — Developer Portfolio
 
-Welcome to my portfolio website! This repository contains the source code for my personal portfolio site, showcasing my skills, projects, and services in the field of IT.
+A modern, responsive developer portfolio built with **React, TypeScript, Vite, and TanStack Start**.
 
-## Overview
+This portfolio showcases my projects, technical skills, experience, and developer journey through a clean, interactive, and responsive interface.
 
-This website serves as a platform to highlight my diverse expertise in various domains of IT, including web development, app development, cybersecurity, web design, and graphic editing. As a versatile developer, I'm committed to delivering quality solutions and providing freelance services to clients seeking innovative and reliable tech solutions.
+🌐 **Live Portfolio:**
+https://ashutoshpalhare.github.io/
 
-## Features
+---
 
-- **About Me:** Learn more about my background, skills, and experiences.
-- **Portfolio:** Explore showcased projects across different IT fields.
-- **Services:** Discover the range of freelance services I offer.
-- **Contact:** Get in touch for collaborations, projects, or inquiries.
+## ✨ About
 
-## Technologies Used
+This repository contains the source code for my personal developer portfolio.
 
-- Frontend: HTML, CSS, JavaScript
-- Backend: 
-- Database: 
-- Additional Tools: remove.bg, Facelab App, etc.
+The goal is to provide a professional place to:
 
-## Folder Structure
+* Introduce myself as a developer
+* Showcase selected projects
+* Highlight technical skills and technologies
+* Share my development experience
+* Provide contact and social links
+* Make my work easily accessible to recruiters and developers
 
-- `index.html`: Homepage of the website
-- `css/`: Contains stylesheets for the website
-- `js/`: Contains JavaScript files
-- `assets/`: Includes images and other media used on the website
+The project is designed as a production-ready static web application and is deployed using **GitHub Pages**.
 
-## Getting Started
+---
 
-To view or contribute to the codebase, follow these steps:
+## 🚀 Tech Stack
 
-To run this website locally:
+### Frontend
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ashutoshpalhare/ashutosh786palhare.github.io.git
+* **React**
+* **TypeScript**
+* **Vite**
+* **TanStack Start**
+* **TanStack Router**
+* **Tailwind CSS**
+* **Lucide Icons**
 
-2. Navigate to the project directory.
-3. Open `index.html` in your web browser.
-   
+### Development
 
-## Contribution Guidelines
-If you'd like to contribute or suggest improvements, feel free to open an issue or submit a pull request. Your feedback and contributions are highly appreciated!
+* **Node.js**
+* **npm**
+* **ESLint**
+* **Prettier**
+* **Git & GitHub**
 
-## Contact Information
-For any further information, collaborations, or inquiries, feel free to reach out to me:
-- Email: ap4all@aol.com
-- LinkedIn: [Ashutosh Palhare](https://in.linkedin.com/in/ashutoshpalhare)
-- Website: https://ashutoshpalhare.github.io
+### Deployment
 
-## Credit
-This Website is Developed by [CodeWithSadee](https://github.com/codewithsadee) Big thanks to @CodeWithSadee
+* **GitHub Pages**
+* **GitHub Actions**
 
-## Thank-You
-**Thank you for visiting my repository and exploring my portfolio website!**
+---
 
+## 📂 Project Structure
 
-   
+```text
+.
+├── public/                 # Static assets
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── routes/            # Application routes
+│   ├── lib/               # Utilities and shared logic
+│   ├── styles/            # Global styles
+│   └── ...
+├── .github/
+│   └── workflows/         # GitHub Actions workflows
+├── package.json
+├── package-lock.json
+├── vite.config.ts
+├── tsconfig.json
+├── eslint.config.js
+└── README.md
+```
+
+> The exact structure may evolve as the portfolio is improved.
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+Make sure you have:
+
+* [Node.js](https://nodejs.org/) installed
+* npm available in your terminal
+* Git installed
+
+### Clone the repository
+
+```bash
+git clone https://github.com/ashutoshpalhare/ashutoshpalhare.github.io.git
+```
+
+```bash
+cd ashutoshpalhare.github.io
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start development server
+
+```bash
+npm run dev
+```
+
+The development server will provide a local URL in the terminal.
+
+---
+
+## 📦 Production Build
+
+Create a production build with:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🌐 Deployment
+
+The portfolio is hosted using **GitHub Pages**.
+
+Repository:
+
+```text
+ashutoshpalhare/ashutoshpalhare.github.io
+```
+
+Live URL:
+
+```text
+https://ashutoshpalhare.github.io/
+```
+
+Deployment is handled through **GitHub Actions**.
+
+The deployment process follows this general flow:
+
+```text
+Push to main
+     ↓
+GitHub Actions
+     ↓
+Install dependencies
+     ↓
+Production build
+     ↓
+Deploy static output
+     ↓
+GitHub Pages
+```
+
+Because this is a GitHub Pages user site repository, the application is served from the root path:
+
+```text
+/
+```
+
+No repository-name subpath is required.
+
+---
+
+## 📱 Responsive Design
+
+The portfolio is designed to work across different screen sizes, including:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+The interface uses responsive layouts and reusable components to maintain a consistent experience across devices.
+
+---
+
+## ♿ Accessibility
+
+The project aims to follow modern accessibility practices, including:
+
+* Semantic HTML
+* Keyboard-friendly interactions
+* Accessible interactive elements
+* Readable typography
+* Responsive layouts
+* Appropriate visual contrast
+
+Accessibility improvements are continuously considered as the project evolves.
+
+---
+
+## ⚡ Performance
+
+The application is built with a modern Vite-based frontend stack and focuses on:
+
+* Optimized production builds
+* Component reuse
+* Efficient asset loading
+* Responsive layouts
+* Minimal unnecessary dependencies
+
+---
+
+## 🔗 Connect With Me
+
+* **GitHub:** [@ashutoshpalhare](https://github.com/ashutoshpalhare)
+* **Portfolio:** [ashutoshpalhare.github.io](https://ashutoshpalhare.github.io/)
+
+More social and professional links are available through the portfolio.
+
+---
+
+## 🤝 Contributions
+
+This repository primarily contains my personal portfolio.
+
+Suggestions, improvements, and constructive feedback are always welcome.
+
+If you find an issue, feel free to open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+This project is intended for personal portfolio use.
+
+The source code is publicly available for learning and reference. Please do not directly copy the portfolio design, personal information, content, or assets and present them as your own.
+
+---
+
+## 👨‍💻 Built By
+
+**Ashutosh Palhare**
+
+Developer focused on building practical, modern, and user-friendly software projects.
+
+---
+
+⭐ If you find this portfolio or any of the projects useful, consider giving the repository a star.
