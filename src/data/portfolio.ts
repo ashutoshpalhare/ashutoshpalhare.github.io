@@ -27,7 +27,7 @@ export const stats = [
 export const experience = [
   {
     role: "Full Stack Developer",
-    org: "Trimurti Pawan Pratishthan Institute",
+    org: "Trimurti Pawan Pratishthan",
     period: "Dec 2024 — Present",
     points: [
       "Developing and maintaining websites using React, WordPress, PHP, HTML, CSS, and JavaScript across multiple domains.",
@@ -38,7 +38,7 @@ export const experience = [
   },
   {
     role: "Founder & Full Stack Developer",
-    org: "devculture4you",
+    org: "Dev Culture",
     period: "2023 — Present",
     points: [
       "Building and shipping developer tools, learning platforms, and product-grade web applications.",
