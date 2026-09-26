@@ -25,34 +25,50 @@ export const stats = [
 
 export const experience = [
   {
+    role: "Full Stack Developer",
+    org: "Trimurti Pawan Pratishthan Institute",
+    period: "Dec 2024 — Present",
+    points: [
+      "Developing and maintaining websites using React, WordPress, PHP, HTML, CSS, and JavaScript across multiple domains.",
+      "Built and delivered 5–6 production-ready websites for the institute and related projects.",
+      "Conducting technical lectures and hands-on training sessions for students on modern web development.",
+      "Handling end-to-end development including UI design, frontend, backend integration, and deployment.",
+    ],
+  },
+  {
     role: "Founder & Full Stack Developer",
     org: "devculture4you",
     period: "2023 — Present",
     points: [
-      "Design and ship product-grade web experiences with React, TypeScript and Tailwind.",
-      "Build developer tooling and learning platforms used openly on GitHub Pages.",
-      "Own the full path: concept, UI design, implementation, deployment.",
+      "Building and shipping developer tools, learning platforms, and product-grade web applications.",
+      "Owning the complete product lifecycle — from concept and UI/UX design to development and deployment.",
+      "Working primarily with React, TypeScript, Tailwind CSS, and modern frontend architecture.",
+      "Publishing open tools and platforms on GitHub Pages used by the developer community.",
     ],
   },
   {
-    role: "Freelance Web Developer",
+    role: "Freelance Full Stack Developer",
     org: "Independent",
     period: "2021 — Present",
     points: [
-      "Delivered business sites and redesigns such as BK Estate and Trimurti ACSD.",
-      "Focus on responsive, accessible, fast static front-ends with zero bloat.",
+      "Delivered multiple client projects across different domains including business websites, redesigns, and custom solutions.",
+      "Worked with a wide range of technologies — HTML, CSS, JavaScript, React, WordPress, and PHP.",
+      "Focused on building responsive, accessible, and high-performance front-ends with clean and maintainable code.",
+      "Managed projects end-to-end: requirement gathering, design, development, and delivery.",
     ],
   },
   {
-    role: "Cybersecurity & Open Source Tinkerer",
+    role: "Cybersecurity & Open Source Contributor",
     org: "Self-directed",
     period: "2019 — Present",
     points: [
-      "Linux tooling, terminal utilities and security fundamentals (Termy, FaceWise).",
-      "50+ vanilla JS mini-projects built to master fundamentals without frameworks.",
+      "Built practical Linux tooling, terminal utilities, and security-focused projects (Termy, FaceWise).",
+      "Completed 50+ vanilla JavaScript mini-projects to strengthen core fundamentals without relying on frameworks.",
+      "Continuously exploring system-level concepts, networking basics, and secure coding practices.",
     ],
   },
 ];
+
 
 export type Category = "Web" | "Tools" | "Learning" | "Cyber";
 
