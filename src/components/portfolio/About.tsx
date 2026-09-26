@@ -10,21 +10,16 @@ export function About() {
         <div className="grid gap-10 md:grid-cols-[1.4fr_1fr] md:items-start">
           <Reveal className="space-y-4 text-sm leading-relaxed text-muted-foreground sm:text-base">
             <p>
-              I'm a frontend-first full stack developer from {profile.location}. I started with
-              vanilla HTML, CSS and JavaScript — 50+ mini projects with zero frameworks — and that
-              foundation still shows up in everything I build today: fast, clean, no bloat.
-            </p>
-            <p>
-              Now I work mostly in React and TypeScript, building learning platforms, developer
-              tools and product-grade interfaces. Cybersecurity is the other half of my brain:
-              Linux tooling, terminal utilities and secure-by-default thinking.
-            </p>
-            <p>
-              I use AI as an engineering multiplier — it speeds up the boring parts so I can spend
-              my attention on architecture, craft and detail. Hand me a vague problem and I'll come
-              back with something shipped.
-            </p>
+  I'm a frontend-first full stack developer from Maharashtra, India. I started with pure HTML, CSS and JavaScript — building 50+ mini projects without any frameworks — and that foundation still shapes everything I ship today: clean, fast, and free of unnecessary complexity.
+</p>
 
+<p>
+  Over the years I've worked across a wide range of technologies — modern web development, React and TypeScript applications, Python and its frameworks, WordPress, AI-assisted development, basic AI/ML concepts, IoT, cybersecurity, networking, and even graphic design. This breadth helps me understand problems from multiple angles and choose the right tools instead of forcing a single stack.
+</p>
+
+<p>
+  My real strength is not memorizing every framework — it's the ability to take a vague problem or unfamiliar technology, research it, architect a solution, and ship it. I use AI as an engineering multiplier so I can move faster on implementation while staying fully responsible for architecture, integration, debugging, and final quality.
+</p>
             <div className="grid grid-cols-2 gap-3 pt-4 sm:grid-cols-4">
               {stats.map((s) => (
                 <div key={s.label} className="glass rounded-xl p-4 text-center">
