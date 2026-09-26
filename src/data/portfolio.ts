@@ -243,7 +243,7 @@ export const skills = [
     items: [
       "Figma",
       "Photoshop",
-      "Canva"
+      "Canva",
       "UI/UX Design",
       "Graphic Design",
       "Glassmorphism",
