@@ -6,7 +6,8 @@ export const profile = {
   role: "Frontend-first Full Stack Developer • Cybersecurity Enthusiast",
   location: "Maharashtra, India",
   avatar: "https://avatars.githubusercontent.com/u/53346137?v=4",
-  bio: "I design and build clean, high-performance web interfaces and practical developer tools. I treat AI as an engineering multiplier — using it to move faster on the repetitive work so I can focus on architecture, user experience, and shipping quality products."  tagline: "Give me a problem → I'll figure out how to ship it.",
+  bio: "I design and build clean, high-performance web interfaces and practical developer tools. I treat AI as an engineering multiplier — using it to move faster on the repetitive work so I can focus on architecture, user experience, and shipping quality products.", 
+  tagline: "Give me a problem → I'll figure out how to ship it.",
   socials: {
     github: "https://github.com/ashutoshpalhare",
     linkedin: "https://www.linkedin.com/in/ashutoshpalhare",
