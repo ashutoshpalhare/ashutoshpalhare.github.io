@@ -39,7 +39,7 @@ export const experience = [
   {
     role: "Founder & Full Stack Developer",
     org: "Dev Culture",
-    period: "2023 — Present",
+    period: "SEP 2023 — Present",
     points: [
       "Building and shipping developer tools, learning platforms, and product-grade web applications.",
       "Owning the complete product lifecycle — from concept and UI/UX design to development and deployment.",
@@ -50,7 +50,7 @@ export const experience = [
   {
     role: "Freelance Full Stack Developer",
     org: "Independent",
-    period: "2021 — Present",
+    period: "JUNE 2021 — Present",
     points: [
       "Delivered multiple client projects across different domains including business websites, redesigns, and custom solutions.",
       "Worked with a wide range of technologies — HTML, CSS, JavaScript, React, WordPress, and PHP.",
@@ -61,7 +61,7 @@ export const experience = [
   {
     role: "Cybersecurity & Open Source Contributor",
     org: "Self-directed",
-    period: "2019 — Present",
+    period: "FEB 2019 — Present",
     points: [
       "Built practical Linux tooling, terminal utilities, and security-focused projects (Termy, FaceWise).",
       "Completed 50+ vanilla JavaScript mini-projects to strengthen core fundamentals without relying on frameworks.",
@@ -142,13 +142,13 @@ export const projects: {
     featured: true,
   },
   {
-    title: "BioLinks V2",
+    title: "BioLinks",
     description:
       "A premium Linktree-inspired digital business card with a modern glassmorphism UI for every profile and link.",
     tags: ["CSS", "Glassmorphism"],
     category: "Web",
-    live: "https://ashutoshpalhare.github.io/BioLinksV2/",
-    repo: "https://github.com/ashutoshpalhare/BioLinksV2",
+    live: "https://ashutoshpalhare.github.io/BioLinks",
+    repo: "https://github.com/ashutoshpalhare/BioLinks",
   },
   {
     title: "Termy",
@@ -195,56 +195,108 @@ export const projects: {
   },
 ];
 
+
+
 export const skills = [
   {
     title: "Frontend",
     icon: "Layout",
-    items: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "HTML5", "CSS3"],
+    items: [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Responsive Design"
+    ],
   },
   {
-    title: "Backend",
+    title: "Backend & Databases",
     icon: "Server",
-    items: ["Node.js", "TanStack Start", "REST APIs", "Supabase", "Python"],
+    items: [
+      "Node.js",
+      "Python",
+      "PHP",
+      "REST APIs",
+      "MySQL",
+      "MongoDB",
+      "Supabase"
+    ],
   },
   {
-    title: "Cybersecurity",
-    icon: "ShieldCheck",
-    items: ["Linux", "Bash", "Network basics", "OSINT", "Secure coding"],
-  },
-  {
-    title: "AI Tools",
+    title: "Python & AI/ML",
     icon: "Sparkles",
-    items: ["Prompt engineering", "ChatGPT workflows", "AI-assisted dev", "Automation"],
+    items: [
+      "Python",
+      "AI-assisted Development",
+      "Prompt Engineering",
+      "Basic Machine Learning",
+      "Automation",
+      "LLM"
+    ],
   },
   {
-    title: "Design & Tools",
+    title: "Design & Creative",
     icon: "PenTool",
-    items: ["Figma", "Git & GitHub", "Vite", "Photoshop", "GitHub Pages"],
+    items: [
+      "Figma",
+      "Photoshop",
+      "Canva"
+      "UI/UX Design",
+      "Graphic Design",
+      "Glassmorphism",
+      "Prototyping"
+    ],
   },
   {
-    title: "Languages",
+    title: "Cybersecurity & Systems",
+    icon: "ShieldCheck",
+    items: [
+      "Linux",
+      "Bash",
+      "Networking Basics",
+      "Secure Coding",
+      "OSINT",
+      "IoT Basics"
+    ],
+  },
+  {
+    title: "Tools & Others",
     icon: "Code2",
-    items: ["JavaScript", "TypeScript", "Python", "C / C++", "Shell"],
+    items: [
+      "Git & GitHub",
+      "VS Code",
+      "Vite",
+      "WordPress",
+      "GitHub Pages",
+      "C / C++",
+      "Java"
+    ],
   },
 ];
 
+
+
+
 export const education = [
   {
-    degree: "B.Sc. — Computer Science",
-    school: "Trimurti Arts, Commerce & Science College",
-    period: "Maharashtra, India",
-    note: "Core CS foundations: data structures, networks, operating systems and programming in C/C++ and Python.",
+    degree: "Bachelor of Engineering — Computer Science",
+    school: "Vishwabharati Academy's Engineering College, Ahmednagar",
+    period: "Pune University • In Progress",
+    note: "Currently pursuing B.E. in Computer Science with focus on software development, data structures, networks, and modern computing concepts.",
   },
   {
-    degree: "Self-taught Web Engineering",
-    school: "Open source & the internet",
-    period: "Ongoing",
-    note: "Learned by shipping: 50+ vanilla projects, full-stack apps, and open tooling published on GitHub.",
+    degree: "Diploma in Computer Engineering",
+    school: "Dnyaneshwar Polytechnic, Bhanashivare",
+    period: "Mumbai University • 87.94%",
+    note: "Completed Diploma in Computer Engineering with strong academic performance. Built solid foundations in programming, databases, and system concepts.",
   },
   {
-    degree: "Cybersecurity Fundamentals",
-    school: "Independent study & labs",
-    period: "Ongoing",
-    note: "Linux internals, terminal tooling, and practical security practice alongside development work.",
+    degree: "Higher Secondary Certificate — Science",
+    school: "Trimurty Junior College, Mukindpur",
+    period: "Pune University • 58.77%",
+    note: "Completed HSC in Science stream, laying the base for further studies in computer science and engineering.",
   },
 ];
