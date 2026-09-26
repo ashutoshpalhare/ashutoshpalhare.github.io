@@ -257,7 +257,7 @@ export const skills = [
       "Linux",
       "Bash",
       "Networking Basics",
-      "Secure Coding",
+      "Script Kiddie",
       "OSINT",
       "IoT Basics"
     ],
