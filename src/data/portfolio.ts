@@ -71,7 +71,9 @@ export const experience = [
 ];
 
 
-export type Category = "Web" | "Tools" | "Learning" | "Cyber";
+
+
+export type Category = "Web" | "Tools" | "Learning" | "Cyber" | "WordPress";
 
 export const projects: {
   title: string;
@@ -82,10 +84,11 @@ export const projects: {
   repo: string;
   featured?: boolean;
 }[] = [
+  // ========== Featured Projects ==========
   {
     title: "craftc",
     description:
-      "Free, structured C and C++ learning platform with interactive lessons, roadmaps, projects, interview questions and cheatsheets.",
+      "A free and structured C & C++ learning platform with interactive lessons, roadmaps, coding projects, interview questions, and cheatsheets.",
     tags: ["TypeScript", "React", "Tailwind"],
     category: "Learning",
     live: "https://ashutoshpalhare.github.io/craftc/",
@@ -95,8 +98,8 @@ export const projects: {
   {
     title: "CodeMuseum",
     description:
-      "A museum-themed developer portfolio in pure HTML, CSS and JS — project exhibits, category filters and elegant animations.",
-    tags: ["JavaScript", "CSS", "UI"],
+      "A museum-themed developer portfolio built with pure HTML, CSS and JavaScript. Features project exhibits, category filters, and smooth animations.",
+    tags: ["JavaScript", "CSS", "UI Design"],
     category: "Web",
     live: "https://ashutoshpalhare.github.io/CodeMuseum/",
     repo: "https://github.com/ashutoshpalhare/CodeMuseum",
@@ -105,7 +108,7 @@ export const projects: {
   {
     title: "CommandKit",
     description:
-      "A curated, searchable library of 100+ ChatGPT slash commands to discover, organize, copy and favorite prompt shortcuts.",
+      "A searchable library of 100+ ready-to-use ChatGPT slash commands. Discover, organize, copy and favorite prompts for faster AI workflows.",
     tags: ["JavaScript", "AI", "Productivity"],
     category: "Tools",
     live: "https://ashutoshpalhare.github.io/CommandKit/",
@@ -113,19 +116,10 @@ export const projects: {
     featured: true,
   },
   {
-    title: "VibeHai",
-    description:
-      "A modern music streaming platform inspired by Spotify — sleek UI, immersive playback and a fresh take on discovery.",
-    tags: ["JavaScript", "UI", "Media"],
-    category: "Web",
-    repo: "https://github.com/ashutoshpalhare/VibeHai",
-    featured: true,
-  },
-  {
     title: "verse",
     description:
-      "AP VERSE — a cinematic, local-first visual archive built with TanStack Start, Zustand and Framer Motion.",
-    tags: ["TanStack Start", "React", "Zustand"],
+      "AP VERSE — a cinematic, local-first visual archive built with TanStack Start, Zustand and Framer Motion. Focused on smooth interactions and visual storytelling.",
+    tags: ["TanStack Start", "React", "Framer Motion"],
     category: "Web",
     live: "https://ashutoshpalhare.github.io/verse/",
     repo: "https://github.com/ashutoshpalhare/verse",
@@ -134,7 +128,7 @@ export const projects: {
   {
     title: "WebDev-Projects",
     description:
-      "50 responsive mini web projects in pure HTML5, CSS3 and vanilla JavaScript. Zero frameworks, zero dependencies.",
+      "A collection of 50+ responsive mini web projects built with pure HTML5, CSS3 and vanilla JavaScript — zero frameworks, zero dependencies.",
     tags: ["HTML", "CSS", "JavaScript"],
     category: "Learning",
     live: "https://ashutoshpalhare.github.io/WebDev-Projects/",
@@ -144,27 +138,90 @@ export const projects: {
   {
     title: "BioLinks",
     description:
-      "A premium Linktree-inspired digital business card with a modern glassmorphism UI for every profile and link.",
-    tags: ["CSS", "Glassmorphism"],
+      "A premium Linktree-style digital business card with modern glassmorphism UI, smooth animations, and clean profile + link management.",
+    tags: ["CSS", "Glassmorphism", "UI"],
     category: "Web",
     live: "https://ashutoshpalhare.github.io/BioLinks",
     repo: "https://github.com/ashutoshpalhare/BioLinks",
-  },
-  {
-    title: "Termy",
-    description:
-      "A colourful terminal emulator for Linux — shell tooling built for people who live in the command line.",
-    tags: ["Shell", "Linux"],
-    category: "Cyber",
-    repo: "https://github.com/ashutoshpalhare/Termy",
+    featured: true,
   },
   {
     title: "FaceWise",
     description:
-      "Attendance management powered by face recognition: register faces, mark attendance and generate reports.",
-    tags: ["Python", "OpenCV"],
+      "Attendance management system powered by face recognition. Supports face registration, real-time attendance marking, and report generation using Python & OpenCV.",
+    tags: ["Python", "OpenCV", "Computer Vision"],
     category: "Cyber",
+    live: "https://www.youtube.com/@ashutoshpalhare",
     repo: "https://github.com/ashutoshpalhare/FaceWise",
+    featured: true,
+  },
+  {
+    title: "Termy",
+    description:
+      "A colourful and lightweight terminal emulator for Linux, designed for developers who live in the command line.",
+    tags: ["Shell", "Linux", "Terminal"],
+    category: "Cyber",
+    live: "https://www.youtube.com/@ashutoshpalhare",
+    repo: "https://github.com/ashutoshpalhare/Termy",
+    featured: true,
+  },
+  {
+    title: "Trimurti Education",
+    description:
+      "Complete educational institute website built with WordPress. Includes course information, admissions details, responsive design and clean user experience.",
+    tags: ["WordPress", "PHP", "Responsive Design"],
+    category: "WordPress",
+    live: "https://trimurtieducation.com/",
+    repo: "https://github.com/ashutoshpalhare",
+    featured: true,
+  },
+  {
+    title: "Trimurti Gramin Pharmacy",
+    description:
+      "Professional pharmacy website developed with WordPress. Features product/service information, contact system and fully responsive layout.",
+    tags: ["WordPress", "PHP", "UI Design"],
+    category: "WordPress",
+    live: "http://trimurtigraminpharmacy.com/",
+    repo: "https://github.com/ashutoshpalhare",
+    featured: true,
+  },
+
+  // ========== Non-featured (View All) ==========
+  {
+    title: "Trimurti ACSCN",
+    description:
+      "Institute website built with WordPress for Trimurti ACSCN. Clean design with academic information and responsive layout.",
+    tags: ["WordPress", "PHP"],
+    category: "WordPress",
+    live: "http://trimurtiacscn.com/",
+    repo: "https://github.com/ashutoshpalhare",
+  },
+  {
+    title: "Trimurti ACSCD",
+    description:
+      "College-related website developed using WordPress with modern design and responsive structure.",
+    tags: ["WordPress", "PHP"],
+    category: "WordPress",
+    live: "http://trimurtiacscd.com/",
+    repo: "https://github.com/ashutoshpalhare",
+  },
+  {
+    title: "Trimurti Boys B.Ed",
+    description:
+      "Educational website for B.Ed program built with WordPress. Focused on clean information architecture and mobile-friendly design.",
+    tags: ["WordPress", "PHP"],
+    category: "WordPress",
+    live: "http://trimurtiboysbed.com/",
+    repo: "https://github.com/ashutoshpalhare",
+  },
+  {
+    title: "VibeHai",
+    description:
+      "A modern music streaming platform inspired by Spotify — sleek UI, immersive playback and a fresh take on discovery.",
+    tags: ["JavaScript", "UI", "Media"],
+    category: "Web",
+    live: "https://www.youtube.com/@ashutoshpalhare",
+    repo: "https://github.com/ashutoshpalhare/VibeHai",
   },
   {
     title: "E-Start 2",
@@ -187,14 +244,13 @@ export const projects: {
   {
     title: "TrimurtiACSD",
     description:
-      "A modern, responsive static redesign concept for a college website with a clean multi-page architecture.",
-    tags: ["HTML", "CSS", "Redesign"],
+      "A modern, fully responsive redesign concept for a college website with clean multi-page architecture and improved user experience.",
+    tags: ["HTML", "CSS", "Responsive Design"],
     category: "Web",
     live: "https://ashutoshpalhare.github.io/TrimurtiACSD/",
     repo: "https://github.com/ashutoshpalhare/TrimurtiACSD",
   },
 ];
-
 
 
 export const skills = [

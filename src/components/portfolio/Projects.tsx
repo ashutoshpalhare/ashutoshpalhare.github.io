@@ -4,17 +4,25 @@ import { ExternalLink, Github } from "lucide-react";
 import { Reveal, SectionHeading } from "./Reveal";
 import { projects } from "@/data/portfolio";
 
-const filters = ["All", "Web", "Tools", "Learning", "Cyber"] as const;
+const filters = ["All", "Web", "Tools", "Learning", "Cyber", "WordPress"] as const;
 
 export function Projects() {
   const [filter, setFilter] = useState<(typeof filters)[number]>("All");
-  const visible = filter === "All" ? projects : projects.filter((p) => p.category === filter);
+
+  // Sirf featured projects dikhao
+  const featuredProjects = projects.filter((p) => p.featured);
+
+  const visible =
+    filter === "All"
+      ? featuredProjects
+      : featuredProjects.filter((p) => p.category === filter);
 
   return (
     <section id="projects" className="px-6 py-24 sm:px-10">
       <div className="mx-auto max-w-5xl">
         <SectionHeading eyebrow="Featured projects" title="Things I've shipped" />
 
+        {/* Filters */}
         <Reveal className="mb-8 flex flex-wrap gap-2">
           {filters.map((f) => (
             <button
@@ -31,6 +39,7 @@ export function Projects() {
           ))}
         </Reveal>
 
+        {/* Projects Grid */}
         <motion.div layout className="grid gap-5 sm:grid-cols-2">
           <AnimatePresence mode="popLayout">
             {visible.map((p) => (
@@ -51,9 +60,11 @@ export function Projects() {
                     {p.category}
                   </span>
                 </div>
+
                 <p className="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground">
                   {p.description}
                 </p>
+
                 <div className="mt-4 flex flex-wrap gap-2">
                   {p.tags.map((t) => (
                     <span
@@ -64,6 +75,7 @@ export function Projects() {
                     </span>
                   ))}
                 </div>
+
                 <div className="mt-5 flex items-center gap-4 text-sm">
                   {p.live && (
                     <a
@@ -88,6 +100,18 @@ export function Projects() {
             ))}
           </AnimatePresence>
         </motion.div>
+
+        {/* View All Button */}
+        <Reveal className="mt-12 text-center">
+          <a
+            href="https://ashutoshpalhare.github.io/CodeMuseum/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-xl border border-border px-6 py-3 text-sm font-semibold text-foreground transition-all duration-300 hover:border-primary hover:text-primary hover:glow-ring"
+          >
+            View All Projects →
+          </a>
+        </Reveal>
       </div>
     </section>
   );
