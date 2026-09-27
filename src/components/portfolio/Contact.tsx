@@ -13,7 +13,7 @@ export function Contact() {
     setTimeout(() => {
       setSending(false);
       (e.target as HTMLFormElement).reset();
-      toast.success("Message noted — reach me on GitHub or LinkedIn meanwhile.");
+      toast.success("Thanks for reaching out! I'll get back to you soon. Meanwhile, connect with me on LinkedIn or GitHub.");
     }, 600);
   }
 
