@@ -95,6 +95,19 @@ export const projects: {
     repo: "https://github.com/ashutoshpalhare/craftc",
     featured: true,
   },
+
+  {
+    title: "VibeHai",
+    description:
+      "A modern music streaming platform inspired by Spotify — sleek UI, immersive playback and a fresh take on discovery.",
+    tags: ["JavaScript", "UI", "Media"],
+    category: "Web",
+    live: "https://www.youtube.com/@ashutoshpalhare",
+    repo: "https://github.com/ashutoshpalhare/VibeHai",
+    featured: true,
+  },
+
+
   {
     title: "CodeMuseum",
     description:
@@ -135,6 +148,20 @@ export const projects: {
     repo: "https://github.com/ashutoshpalhare/WebDev-Projects",
     featured: true,
   },
+
+
+  {
+    title: "Python Micro Projects",
+    description:
+      "A growing collection of small, documented Python programs — each self-contained with its own docs and requirements.",
+    tags: ["Python", "Automation"],
+    category: "Learning",
+    live: "https://ashutoshpalhare.github.io/Python-Micro-Projects/",
+    repo: "https://github.com/ashutoshpalhare/Python-Micro-Projects",
+    featured: true,
+  },
+
+
   {
     title: "BioLinks",
     description:
@@ -155,16 +182,18 @@ export const projects: {
     repo: "https://github.com/ashutoshpalhare/FaceWise",
     featured: true,
   },
+
   {
-    title: "Termy",
+    title: "Trimurti ACSCN",
     description:
-      "A colourful and lightweight terminal emulator for Linux, designed for developers who live in the command line.",
-    tags: ["Shell", "Linux", "Terminal"],
-    category: "Cyber",
-    live: "https://www.youtube.com/@ashutoshpalhare",
-    repo: "https://github.com/ashutoshpalhare/Termy",
+      "Institute website built with WordPress for Trimurti ACSCN. Clean design with academic information and responsive layout.",
+    tags: ["WordPress", "PHP"],
+    category: "WordPress",
+    live: "http://trimurtiacscn.com/",
+    repo: "https://github.com/ashutoshpalhare",
     featured: true,
   },
+
   {
     title: "Trimurti Education",
     description:
@@ -175,6 +204,11 @@ export const projects: {
     repo: "https://github.com/ashutoshpalhare",
     featured: true,
   },
+  
+
+  // ========== Non-featured (View All) ==========
+  
+
   {
     title: "Trimurti Gramin Pharmacy",
     description:
@@ -183,19 +217,10 @@ export const projects: {
     category: "WordPress",
     live: "http://trimurtigraminpharmacy.com/",
     repo: "https://github.com/ashutoshpalhare",
-    featured: true,
+    
   },
 
-  // ========== Non-featured (View All) ==========
-  {
-    title: "Trimurti ACSCN",
-    description:
-      "Institute website built with WordPress for Trimurti ACSCN. Clean design with academic information and responsive layout.",
-    tags: ["WordPress", "PHP"],
-    category: "WordPress",
-    live: "http://trimurtiacscn.com/",
-    repo: "https://github.com/ashutoshpalhare",
-  },
+
   {
     title: "Trimurti ACSCD",
     description:
@@ -204,6 +229,7 @@ export const projects: {
     category: "WordPress",
     live: "http://trimurtiacscd.com/",
     repo: "https://github.com/ashutoshpalhare",
+  
   },
   {
     title: "Trimurti Boys B.Ed",
@@ -214,15 +240,7 @@ export const projects: {
     live: "http://trimurtiboysbed.com/",
     repo: "https://github.com/ashutoshpalhare",
   },
-  {
-    title: "VibeHai",
-    description:
-      "A modern music streaming platform inspired by Spotify — sleek UI, immersive playback and a fresh take on discovery.",
-    tags: ["JavaScript", "UI", "Media"],
-    category: "Web",
-    live: "https://www.youtube.com/@ashutoshpalhare",
-    repo: "https://github.com/ashutoshpalhare/VibeHai",
-  },
+  
   {
     title: "E-Start 2",
     description:
@@ -232,15 +250,19 @@ export const projects: {
     live: "https://ashutoshpalhare.github.io/E-Start2/",
     repo: "https://github.com/ashutoshpalhare/E-Start2",
   },
+
   {
-    title: "Python Micro Projects",
+    title: "Termy",
     description:
-      "A growing collection of small, documented Python programs — each self-contained with its own docs and requirements.",
-    tags: ["Python", "Automation"],
-    category: "Learning",
-    live: "https://ashutoshpalhare.github.io/Python-Micro-Projects/",
-    repo: "https://github.com/ashutoshpalhare/Python-Micro-Projects",
-  },
+      "A colourful and lightweight terminal emulator for Linux, designed for developers who live in the command line.",
+    tags: ["Shell", "Linux", "Terminal"],
+    category: "Cyber",
+    live: "https://www.youtube.com/@ashutoshpalhare",
+    repo: "https://github.com/ashutoshpalhare/Termy",
+    featured: true,
+  }, 
+
+  
   {
     title: "TrimurtiACSD",
     description:
