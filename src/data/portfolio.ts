@@ -138,6 +138,19 @@ export const projects: {
     repo: "https://github.com/ashutoshpalhare/verse",
     featured: true,
   },
+
+   {
+    title: "BioLinks",
+    description:
+      "A premium Linktree-style digital business card with modern glassmorphism UI, smooth animations, and clean profile + link management.",
+    tags: ["CSS", "Glassmorphism", "UI"],
+    category: "Web",
+    live: "https://ashutoshpalhare.github.io/BioLinks",
+    repo: "https://github.com/ashutoshpalhare/BioLinks",
+    featured: true,
+  },
+
+  
   {
     title: "WebDev-Projects",
     description:
@@ -162,16 +175,6 @@ export const projects: {
   },
 
 
-  {
-    title: "BioLinks",
-    description:
-      "A premium Linktree-style digital business card with modern glassmorphism UI, smooth animations, and clean profile + link management.",
-    tags: ["CSS", "Glassmorphism", "UI"],
-    category: "Web",
-    live: "https://ashutoshpalhare.github.io/BioLinks",
-    repo: "https://github.com/ashutoshpalhare/BioLinks",
-    featured: true,
-  },
   {
     title: "FaceWise",
     description:
