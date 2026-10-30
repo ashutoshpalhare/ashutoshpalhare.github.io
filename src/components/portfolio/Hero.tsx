@@ -56,9 +56,9 @@ export function Hero() {
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3 md:justify-start">
             <a
-              href={profile.socials.site}
-              target="_blank"
-              rel="noreferrer noopener"
+              href="/ResumeAP.pdf"
+              download="Ashutosh-Palhare-Resume.pdf"
+              aria-label="Download Ashutosh Palhare's resume as a PDF"
               className="inline-flex items-center gap-2 rounded-xl bg-gradient-gold px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow transition-transform duration-300 hover:scale-[1.03]"
             >
               <Download className="h-4 w-4" />
